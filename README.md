@@ -7,6 +7,10 @@ anime, and access detailed information about each entry.
 
 ## Screenshots
 
+| ![image](/screenshots/screenshot-2024-04-15_11.43.38.817.png) | ![image](/screenshots/screenshot-2024-04-15_11.43.52.909.png) | ![image](/screenshots/screenshot-2024-04-15_11.43.57.694.png) |
+|---------------------------------------------------------------|---------------------------------------------------------------|---------------------------------------------------------------|
+| ![image](/screenshots/screenshot-2024-04-15_11.44.02.039.png) | ![image](/screenshots/screenshot-2024-04-15_11.44.12.258.png) | ![image](/screenshots/screenshot-2024-04-15_11.44.17.161.png) |
+
 ## Modules
 
 ```mermaid
