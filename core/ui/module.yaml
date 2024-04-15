@@ -1,0 +1,30 @@
+product:
+  type: lib
+  platforms: [ android ]
+
+variants: [ debug, release ]
+
+settings:
+  android:
+    namespace: "core.ui"
+    compileSdk: 34
+    minSdk: 27
+
+  kotlin:
+    languageVersion: 1.9
+    apiVersion: 1.9
+
+  java:
+    source: 17
+
+dependencies:
+  - $libs.google.dagger.hilt.android
+  - $libs.androidx.compose.material3
+  - $libs.google.accompanist.navigation.material
+  - $libs.androidx.paging.compose
+  - $libs.androidx.compose.material.theme
+  - $libs.jetbrains.kotlinx.collections.immutable
+  - $libs.androidx.compose.ui.preview
+
+dependencies@debug:
+  - $libs.androidx.compose.ui.tooling

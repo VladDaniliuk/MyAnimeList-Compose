@@ -1,0 +1,31 @@
+product:
+  type: lib
+  platforms: [ android ]
+
+variants: [ debug, release ]
+
+settings:
+  kotlin:
+    freeCompilerArgs: [ "-Xstring-concat=inline" ]
+    serialization:
+      format: json
+
+    languageVersion: 1.9
+    apiVersion: 1.9
+
+  java:
+    source: 17
+
+  android:
+    namespace: "data.ktor"
+    minSdk: 27
+    compileSdk: 34
+
+dependencies:
+  - $libs.google.dagger.hilt.android
+  - $libs.ktor.client.android
+  - $libs.ktor.client.serialization
+  - $libs.ktor.client.logging.jvm
+  - $libs.ktor.client.content.negotiation
+  - $libs.ktor.serialization.kotlinx.json.jvm
+  - $libs.ktor.client.auth

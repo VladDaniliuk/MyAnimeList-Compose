@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="completed">Completed</string>
+    <string name="dropped">Dropped</string>
+    <string name="on_hold">On hold</string>
+    <string name="watching">Watching</string>
+    <string name="plan_to_watch">Plan to watch</string>
+    <string name="id">id: %1$s</string>
+    <string name="days">Days: %1$s</string>
+    <string name="mean_score">Mean score: %1$s</string>
+    <string name="episodes">Episodes: %1$s</string>
+    <string name="joined_at">Joined at</string>
+    <string name="location">Location</string>
+    <string name="error">Error</string>
+    <string name="try_again">Try again</string>
+    <string name="sign_in">Sign in</string>
+    <string name="log_out">Log out</string>
+    <string name="use_as_default">Use as default</string>
+    <string name="delete">Delete</string>
+    <string name="account_management">Account management</string>
+    <string name="are_you_sure_you_want_log_out_from_this_account">Are you sure you want log out from this account?</string>
+    <string name="cancel">Cancel</string>
+</resources>

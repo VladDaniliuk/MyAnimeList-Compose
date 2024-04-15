@@ -1,0 +1,20 @@
+product:
+  type: lib
+  platforms: [ android ]
+
+settings:
+  kotlin:
+    languageVersion: 1.9
+    apiVersion: 1.9
+
+  android:
+    namespace: "data.datastore"
+    compileSdk: 34
+    minSdk: 27
+
+  java:
+    source: 17
+
+dependencies:
+  - $libs.google.dagger.hilt.android
+  - $libs.androidx.datastore.preferences

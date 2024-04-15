@@ -1,0 +1,22 @@
+product:
+  type: lib
+  platforms: [ android ]
+
+variants: [ debug, release ]
+
+settings:
+  android:
+    namespace: "core.navigator"
+    compileSdk: 34
+    minSdk: 27
+
+  kotlin:
+    languageVersion: 1.9
+    apiVersion: 1.9
+
+  java:
+    source: 17
+
+dependencies@android:
+  - $libs.androidx.compose.material3
+  - $libs.google.accompanist.navigation.material

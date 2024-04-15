@@ -1,0 +1,21 @@
+product:
+  type: lib
+  platforms: [ android ]
+
+variants: [ debug, release ]
+
+settings:
+  kotlin:
+    languageVersion: 1.9
+    apiVersion: 1.9
+
+  android:
+    namespace: "core.utils"
+    minSdk: 27
+    compileSdk: 34
+
+  java:
+    source: 17
+
+dependencies:
+  - $libs.androidx.paging.common
